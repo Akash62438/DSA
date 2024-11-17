@@ -25,7 +25,7 @@ public class BinaryTree {
             Node newNode = new Node(data);
 
             if (root == null) {
-                root = newNode; // Fixing assignment: root should be assigned newNode, not null
+                root = newNode; 
             } else {
                 Node current = root;
                 Node parent;

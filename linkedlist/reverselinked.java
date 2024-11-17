@@ -54,6 +54,8 @@ public class reverselinked {
         // void reverseList() {
         //     head = reverse(head);
         // }
+
+        
         public void reverse() {
             node previous = null;
             node current = head;
