@@ -3,7 +3,7 @@ import java.util.*;
 
 public class queuelinkedimpl {
 
-    public static class node {
+    static class node {
 
         int data;
         node next;
@@ -15,7 +15,7 @@ public class queuelinkedimpl {
 
     }
 
-    public static class queue {
+    static class queue {
 
         node head = null;
         node tail = null;

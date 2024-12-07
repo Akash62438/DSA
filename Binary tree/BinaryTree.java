@@ -1,7 +1,7 @@
 
 public class BinaryTree {
 
-    public class Node { // Fixing capitalization: Class names should start with uppercase
+    public class Node { 
 
         int data;
         Node left, right;

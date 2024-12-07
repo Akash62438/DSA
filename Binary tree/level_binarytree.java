@@ -49,7 +49,7 @@ public class level_binarytree {
             }
         }
 
-        // Calculate the height of the tree
+        
         public int level_binary(node root) {
             if (root == null) {
                 return 0;
@@ -57,7 +57,7 @@ public class level_binarytree {
             return 1 + Math.max(level_binary(root.left), level_binary(root.right));
         }
 
-        // Print all nodes at the specified level
+        
         public void level_of(node root, int curr, int level) {
             if (root == null) {
                 return;
@@ -69,7 +69,7 @@ public class level_binarytree {
             level_of(root.right, curr + 1, level);
         }
 
-        // Print each level
+       
         void levelorder(node root) {
             int n = level_binary(root);
             for (int i = 1; i <= n; i++) {

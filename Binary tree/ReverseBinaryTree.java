@@ -65,7 +65,7 @@ public class ReverseBinaryTree {
             }
         }
 
-        // Pre-order traversal to print the tree
+        
         public void preOrder(Node root) {
             if (root == null) {
                 return;
