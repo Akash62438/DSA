@@ -1,0 +1,2 @@
+fast = head;
+        //  slow = head;

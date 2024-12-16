@@ -34,7 +34,7 @@ public class circularqueueimplarray {
                 size++;
             }
         }
-
+          
         public int remove() {
 
             if (size == 0) {
